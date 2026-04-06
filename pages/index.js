@@ -14,7 +14,7 @@ const LINKS = [
   {
     id: 'website',
     label: 'Visit Our Website',
-    description: 'Explore EthioXHub',
+    description: 'Explore Linu Mar Entertainment',
     href: '/go/website',
     icon: '🌐',
     iconClass: 'website',
@@ -89,13 +89,13 @@ export default function LinkInBio() {
   return (
     <>
       <Head>
-        <title>EthioXHub — Links</title>
+        <title>Linu Mar Entertainment — Links</title>
         <meta
           name="description"
-          content="Official links for EthioXHub. Visit our website, join our community, and connect with us."
+          content="Official links for Linu Mar Entertainment. Visit our website, join our community, and connect with us."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="EthioXHub — Links" />
+        <meta property="og:title" content="Linu Mar Entertainment — Links" />
         <meta
           property="og:description"
           content="Visit our website, join our community, and connect with us."
@@ -123,7 +123,7 @@ export default function LinkInBio() {
               ⚡
             </div>
           </div>
-          <h1 className="profile-name">EthioXHub</h1>
+          <h1 className="profile-name">Linu Mar Entertainment</h1>
           <p className="profile-bio">
             Ethiopian entertainment, culture & lifestyle — all in one place
           </p>
@@ -161,14 +161,14 @@ export default function LinkInBio() {
         <footer className="footer">
           <div className="footer-links">
             <a href="https://ethioxhub.tech/privacy" target="_blank" rel="noopener noreferrer">
-              Privacy Policy
+              Privacy
             </a>
             <a href="https://ethioxhub.tech/terms" target="_blank" rel="noopener noreferrer">
               Terms of Service
             </a>
           </div>
           <p className="footer-copyright">
-            © {new Date().getFullYear()} EthioXHub. All rights reserved.
+            © {new Date().getFullYear()} Linu Mar Entertainment. All rights reserved.
           </p>
         </footer>
       </main>

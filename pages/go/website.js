@@ -52,7 +52,7 @@ export default function RedirectToWebsite() {
   return (
     <>
       <Head>
-        <title>EthioXHub — Continue to Website</title>
+        <title>Linu Mar Entertainment — Continue to Website</title>
         <meta name="robots" content="noindex, nofollow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
@@ -61,7 +61,7 @@ export default function RedirectToWebsite() {
         <div className="redirect-card">
           <div className="redirect-logo">⚡</div>
 
-          <h1>You&apos;re heading to EthioXHub</h1>
+          <h1>You&apos;re heading to Linu Mar Entertainment</h1>
 
           <p className="redirect-subtitle">
             Taking you to our website
@@ -91,7 +91,7 @@ export default function RedirectToWebsite() {
 
           <div className="redirect-branding">
             <span>⚡</span>
-            <span>EthioXHub</span>
+            <span>Linu Mar Entertainment</span>
           </div>
         </div>
       </main>

@@ -1,4 +1,4 @@
-# EthioXHub Link-in-Bio Redirector
+# Linu Mar Entertainment — Link-in-Bio Redirector
 
 A premium, branded link-in-bio page built with Next.js for TikTok traffic. Implements **Option B (Direct Controlled Architecture)** from the TikTok link architecture evaluation.
 
@@ -52,7 +52,7 @@ npx vercel --prod
 
 ## Domain Configuration
 
-Point `links.ethioxhub.tech` to your deployment:
+Point your domain to your deployment:
 
 | Record | Type | Name | Value |
 |---|---|---|---|
@@ -62,15 +62,12 @@ Point `links.ethioxhub.tech` to your deployment:
 
 | Link | Destination | Type |
 |---|---|---|
+| Join Community | `t.me/linumar` | Direct link |
 | Visit Website | `/go/website` → `ethioxhub.tech` | Soft redirect (3s) |
-| Telegram | `t.me/linumar` | Direct link |
 | TikTok | `tiktok.com/@ethioxhub` | Direct link |
 | Instagram | `instagram.com/ethioxhub` | Direct link |
 | Support | `mailto:support@ethioxhub.tech` | Direct link |
 
 ## TikTok Bio Usage
 
-Set your TikTok bio link to:
-```
-links.ethioxhub.tech
-```
+Set your TikTok bio link to your deployed URL.
